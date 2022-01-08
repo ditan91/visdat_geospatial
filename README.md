@@ -1,1 +1,1 @@
-# visdat_geospatial
+# demo-visdat
