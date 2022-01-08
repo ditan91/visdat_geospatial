@@ -17,7 +17,7 @@ from bokeh.models import HoverTool, ColumnDataSource, DatePicker
 from bokeh.models import CategoricalColorMapper
 from bokeh.palettes import Spectral6
 
-data_vis = pd.read_csv('data_visdat.csv')
+data_vis = pd.read_csv('./data_visdat.csv')
 
 Chi_Source = data_vis.loc[:, ['Latitude', 'Longitude']]
 Chi_Source.drop(Chi_Source.columns[0], axis=1,inplace=True)
